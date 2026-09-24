@@ -17,7 +17,7 @@ export function Wordmark({ compact = false }: { compact?: boolean }) {
       <LogoMark />
       <div className="min-w-0 leading-tight">
         <div className="font-display text-lg font-semibold tracking-tight">Sightline</div>
-        {!compact && <div className="text-[11px] font-medium uppercase tracking-[0.14em] opacity-70">Helios Eye Hospital</div>}
+        {!compact && <div className="text-[11px] font-medium uppercase tracking-[0.14em] opacity-70">For Eye Hospital</div>}
       </div>
     </div>
   );
