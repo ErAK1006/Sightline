@@ -1,5 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createRootRoute, HeadContent, Outlet, Scripts, useRouterState } from "@tanstack/react-router";
+import { Analytics } from "@vercel/analytics/react";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { HospitalApp } from "@/components/layout/hospital-app";
@@ -59,6 +60,7 @@ function Root() {
             <Toaster position="top-center" richColors />
           </AuthProvider>
         </QueryClientProvider>
+        <Analytics />
         <Scripts />
       </body>
     </html>
