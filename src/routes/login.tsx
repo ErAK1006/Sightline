@@ -53,7 +53,7 @@ function Login() {
           <LogoMark />
           <div>
             <div className="font-display text-2xl font-semibold">Sightline</div>
-            <div className="text-xs uppercase tracking-[0.16em] text-sidebar-muted">Helios Eye Hospital</div>
+            <div className="text-xs uppercase tracking-[0.16em] text-sidebar-muted">Eye Hospital</div>
           </div>
         </div>
         <div className="max-w-md">
@@ -61,10 +61,10 @@ function Login() {
             The operating theatre of the building.
           </h1>
           <p className="mt-4 text-sm leading-relaxed text-sidebar-muted">
-            One register for assets, breakdowns, preventive maintenance, utilities, and compliance — built for an eye hospital floor, not a generic CMMS.
+            One register for assets, breakdowns, preventive maintenance, utilities, and compliance — built for an eye hospital
           </p>
         </div>
-        <p className="text-xs text-sidebar-muted">Jayanagar campus · Engineering & facilities</p>
+        <p className="text-xs text-sidebar-muted">Engineering & facilities</p>
       </section>
 
       <section className="flex items-center justify-center px-5 py-12">
@@ -74,7 +74,7 @@ function Login() {
               <LogoMark />
               <div>
                 <div className="font-display text-xl font-semibold">Sightline</div>
-                <div className="text-[11px] uppercase tracking-[0.16em] text-muted">Helios Eye Hospital</div>
+                <div className="text-[11px] uppercase tracking-[0.16em] text-muted">Eye Hospital</div>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ function Login() {
                 {mode === "in" ? "New staff member? Create an account" : "Already have an account? Sign in"}
               </button>
               <p className="text-xs leading-relaxed text-muted">
-                Matching a Helios staff email claims that role. First signed-in user becomes Super Admin.
+                Matching a staff email claims that role. First signed-in user becomes Super Admin.
               </p>
             </div>
           ) : (
