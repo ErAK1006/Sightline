@@ -20,6 +20,7 @@
     "lint": "eslint .",
     "format": "prettier --write ."
   },
+  "qrcode": "^1.5.4",
   "dependencies": {
     "@electric-sql/pglite": "^0.5.4",
     "@hookform/resolvers": "^5.7.0",
